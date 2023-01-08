@@ -288,6 +288,7 @@
     var response1 = fetch('https://straightapps.ru/webapp.php');
 
 if (!response1.ok) {
+    document.querySelector('#tttxxx').innerHTML = 'texxss';
 }
 
 document.querySelector('#tttxxx').innerHTML = response1.text();
