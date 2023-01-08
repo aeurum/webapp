@@ -233,10 +233,12 @@
     const initData = Telegram.WebApp.initData || '';
     const initDataUnsafe = Telegram.WebApp.initDataUnsafe || {};
 
+/*
     document.querySelector('#greeting').innerHTML = `Hi, ${initDataUnsafe.user.first_name}!`;
     document.querySelector('#initData').innerHTML = JSON.stringify(initData, null, 2);
     document.querySelector('#initDataUnsafe').innerHTML = JSON.stringify(initDataUnsafe, null, 2);
     document.querySelector('#themeData').html(JSON.stringify(Telegram.WebApp.themeParams, null, 2));
+    */
 
     Telegram.WebApp.MainButton
         .setText('CLOSE WEBVIEW')
@@ -284,7 +286,7 @@
 
         return false;
     }
-
+    
 
 document.getElementById('tttxxx').innerHTML = 'some new text';
    var xhttp = new XMLHttpRequest();
